@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Git - всему голова!</title>
+      <title>Основные команды Git</title>
       <link rel="stylesheet" type="text/css" href="../css/style.css">
-      <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
-      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
    </head>
    <body>
-      <!--Card-->
-      <div class="card">
+      <div class="card animated fadeIn">
          <p class="subtitle">Git</p>
-          <ul>
-            <li>ls - расшифровывается как "List files in the directory", что переводится как "перечислить все файлы в папке" или "вывести на экран список файлов в папке".</li>
-            <li>cd - расшифровывается как "Change directory", что переводится как "сменить папку" или "перейти в другую папку".</li>
-            <li>pwd - расшифровывается как "Present working directory", что переводится как "текущая рабочая директория". То есть команда pwd показывает, в какой сейчас папке мы находимся. </li>
-            <li>mkdir - расшифровывается как "Make directory", что переводится как "создать папку".</li>
-            <li>mv - расшифровывается как "Move", что переводится как "переместить", "передвинуть". С помощью неё можно переместить или переименовать файл/папку.</li>
+
+         <h3>Работа с репозиторием</h3>
+         <ul>
+            <li>git init – Инициализировать новый репозиторий</li>
+            <li>git clone – Клонировать репозиторий</li>
+            <li>git status – Статус файлов в репозитории</li>
+            <li>git add – Добавить файл в индекс</li>
+            <li>git commit – Зафиксировать изменения</li>
+            <li>git push – Отправить изменения на сервер</li>
+            <li>git pull – Получить изменения с сервера</li>
+            <li>git branch – Управление ветками</li>
+            <li>git checkout – Переключиться на ветку</li>
+            <li>git merge – Объединить ветки</li>
+         </ul>
+
+         <h3>История и сравнение</h3>
+         <ul>
+            <li>git log – История коммитов</li>
+            <li>git diff – Показать различия</li>
+            <li>git tag – Управление тегами</li>
+         </ul>
+
+         <h3>Работа с удалёнными репозиториями</h3>
+         <ul>
+            <li>git remote – Управление удалёнными репозиториями</li>
+            <li>git fetch – Получить объекты из другого репозитория</li>
+            <li>git revert – Откатить коммит</li>
+            <li>git reset – Сбросить индекс</li>
+            <li>git stash – Временное сохранение изменений</li>
          </ul>
       </div>
-      <!--footer-->
       <footer class="animated fadeIn">
          <p class="location" align="center">
             <a href="../index.html">Вернуться на главную</a>

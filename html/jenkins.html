@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Команды Jenkins</title>
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
+      <link rel="shortcut icon" href="../img/favicon.png" type="image/png">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div class="card animated fadeIn">
+         <p class="subtitle">Jenkins</p>
+         <p>Jenkins — популярный сервер автоматизации для CI/CD.</p>
+
+         <h3>Основные команды</h3>
+         <ul>
+            <li>jenkins-cli.jar -s http://localhost:8080/ list-jobs – Показать все задачи</li>
+            <li>jenkins-cli.jar -s http://localhost:8080/ build &lt;job&gt; – Запустить задачу</li>
+            <li>jenkins-cli.jar -s http://localhost:8080/ get-job &lt;job&gt; – Получить конфиг задачи</li>
+            <li>jenkins-cli.jar -s http://localhost:8080/ delete-job &lt;job&gt; – Удалить задачу</li>
+            <li>jenkins-cli.jar -s http://localhost:8080/ console &lt;job&gt; – Показать логи</li>
+         </ul>
+
+         <h3>Популярные команды</h3>
+         <ul>
+            <li>jenkins-cli.jar -s http://localhost:8080/ safe-restart – Безопасная перезагрузка</li>
+            <li>jenkins-cli.jar -s http://localhost:8080/ version – Показать версию Jenkins</li>
+            <li>jenkins-cli.jar -s http://localhost:8080/ who-am-i – Показать пользователя</li>
+         </ul>
+      </div>
+      <footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="../index.html">Вернуться на главную</a>
+         </p>
+         &copy; 2024. SkyPro
+      </footer>
+   </body>
+</html>

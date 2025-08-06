@@ -1,6 +1,11 @@
 * {
 	font-family: 'Montserrat', sans-serif;
 }
+ul, ul li, li {
+    font-weight: normal !important;
+    font-size: 0.9em; 
+    line-height: 1.4;
+}
 
 body {
 	width: 100%;
